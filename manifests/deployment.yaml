@@ -16,6 +16,7 @@ data:
     <body>
     <h1>Hello from Argo CD + NGINX! Updated</h1>
     <p>This is a sample static page deployed via GitOps.</p>
+    <p>2nd update</p>
     </body>
     </html>
 ---
