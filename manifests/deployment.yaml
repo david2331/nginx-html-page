@@ -12,7 +12,7 @@ data:
   index.html: |
     <!DOCTYPE html>
     <html>
-    <head><title>My Sample Page</title></head>
+    <head><title>Updated page</title></head>
     <body>
     <h1>Hello from Argo CD + NGINX! Updated</h1>
     <p>This is a sample static page deployed via GitOps.</p>
