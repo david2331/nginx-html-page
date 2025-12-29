@@ -4,8 +4,8 @@ metadata:
   name: nginx
   namespace: nginx-demo
   annotations:
-    service.beta.kubernetes.io/aws-load-balancer-type: "nlb" # optional NLB
-    service.beta.kubernetes.io/aws-load-balancer-internal: "false" # internet-facing
+    service.beta.kubernetes.io/aws-load-balancer-type: "nlb"
+    service.beta.kubernetes.io/aws-load-balancer-scheme: "internet-facing"
 spec:
   type: LoadBalancer
   selector:
@@ -13,4 +13,3 @@ spec:
   ports:
   - port: 80
     targetPort: 80
-  externalTrafficPolicy: Cluster
